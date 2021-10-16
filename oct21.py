@@ -232,6 +232,34 @@ result = map(add,number)
 print(list(result))
 """
 
+"""
 nums = [1,2,3,4]
 result = map(lambda x: x+(x*2), nums)
 print(list(result))
+"""
+"""
+S, N = input(), int(input()) 
+for part in zip(*[iter(S)] * N):
+    d = dict()
+    print(''.join([ d.setdefault(c, c) for c in part if c not in d ]))    
+
+"""
+
+"""
+def merge_the_tools(string, k):
+    for i in range(0, len(string), k):
+        uniq = ''
+        for c in string[i : i+k]:
+            if (c not in uniq):
+                uniq+=c
+        print(uniq)
+"""
+"""
+s = "sdqdaddqw"
+for k in range(0, len(s),3):
+    temp = ""
+    for i in s[0:k+3]:
+        if (i not in temp):
+            temp+=i
+    print(temp)
+"""
