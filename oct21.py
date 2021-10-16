@@ -263,3 +263,40 @@ for k in range(0, len(s),3):
             temp+=i
     print(temp)
 """
+"""
+def numchek(x,n):
+    print(isinstance(x,float))
+
+if __name__ == '__main__':
+    n = int(input())
+    xx = float(input())
+numchek(xx,n)    
+"""
+
+"""
+for i in range(int(input())):    
+    try:
+        n=input()
+        int(n.split('.')[1])	#for Decimal value ('12.')
+        if float(n):
+            print('True')
+    except:        
+        print('False')
+"""
+"""
+from  functools import reduce
+b = range(1,6)
+r = reduce((lambda x,y: x+y),b)
+print(r)
+
+
+s = 0
+for i in range(6):
+    s = s+i
+print(s)
+"""
+
+#print(list(i for i in range(6)))
+
+#print(map((lambda x,y:x+y),x for x in range(6)))
+
