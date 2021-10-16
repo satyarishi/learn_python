@@ -300,3 +300,17 @@ print(s)
 
 #print(map((lambda x,y:x+y),x for x in range(6)))
 
+"""
+def valid(mode,number):
+    if mode == 'max':
+        return lambda value:value<number
+    elif mode == 'min':
+        return lambda value: value>number
+
+Max = valid('max',31)
+Min = valid('min',31)
+print(Max(15))
+print(Min(32))
+"""
+
+
