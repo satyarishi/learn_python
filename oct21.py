@@ -232,6 +232,6 @@ result = map(add,number)
 print(list(result))
 """
 
-nums = 5
-result = map(lambda x: x+(x*2) for x in range(nums) , nums)
+nums = [1,2,3,4]
+result = map(lambda x: x+(x*2), nums)
 print(list(result))
