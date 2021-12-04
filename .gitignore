@@ -131,3 +131,6 @@ fibonacci.py
 *.cpp
 *.exe
 *.zip
+*.png
+.vscode
+.idea
