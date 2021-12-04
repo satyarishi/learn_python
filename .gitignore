@@ -129,3 +129,5 @@ dmypy.json
 .pyre/
 fibonacci.py
 *.cpp
+*.exe
+*.zip
